@@ -21,6 +21,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+    text-decoration: none;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,7 +55,7 @@ table {
 	box-sizing: border-box;
 }
 .container{
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 100px;
 	padding: 0 32px;
 }
@@ -72,8 +73,6 @@ table {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	/* background-color: yellow; */
-	/* padding: 50px; */
 	font-size: 20px;
 }
 /* header */
@@ -197,49 +196,40 @@ table {
 	height: 300px;
 }
 .icon-div{
-	width: 170px;
-	height: 170px;
+	width: 230px;
+	height: 230px;
 	background-color: #5CBD9D;
 	display:flex;
 	justify-content: center;
 	align-items:center;
 	/* margin: 10px; */
 }
-.flex-width{
-	width: 800px;
-	margin-left: 140px;
-}
-/*image-div  */
 .image-div{
 	display:flex;
 	justify-content:space-between;
 	padding: 20px 10px;
-	width: 800px;
-	margin-left: 140px;
 }
 .width{
-	width: 170px;
-	height: 170px;
+	width: 230px;
+	height: 230px;
 }
 /* new div */
 .circle{
-	width: 170px;
-	height: 170px;
+	width: 230px;
+	height: 230px;
 	border-radius: 50%;
 }
 .design{
-	width: 60%;
-	/* margin-left: 80px; */
+	width: 58%;
 }
 .design2{
 	width:40% ;
-	margin-left: 20px;
 }
 .red{
 	color: red;
 }
 .text{
-	line-height:1.5;
+	line-height:1.7;
 	font-size: 14px;
 	letter-spacing: 1px;
 }
@@ -299,19 +289,26 @@ table {
 	width: 60%;
 	margin-right: 50px;
 }
+.right-input{
+    width: 40%;
+}
 .last-input{
-	width: 300px;
-	margin:10px 0;
+	width: 400px;
+	/* margin:10px 0; */
+    margin-bottom: 13px;
 	padding: 8px 5px;
 	background-color: #F2F1F0;
 }
 .btn-input{
 	border-radius: 2px;
+    width: 415px;
+    border: none;
 	background-color: red;
 	color: #ffffff;
-	padding: 8px 110px; 
+	padding: 10px 110px; 
 	letter-spacing: 1px;
-	margin: 10px 0;
+	margin: 10px 0; 
+    margin-bottom: 50px;
 }
 .span-color{
 	color: red;
